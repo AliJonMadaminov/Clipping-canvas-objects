@@ -11,5 +11,4 @@ class ClippedView @JvmOverloads constructor(
 ) :
     View(context, attrs, defStyleAttr) {
 
-
 }
