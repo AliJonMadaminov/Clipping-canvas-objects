@@ -56,6 +56,8 @@ class ClippedView @JvmOverloads constructor(
         clipRectBottom - rectInset
     )
 
+    private val rejectRow = rowFour + rectInset + 2 * clipRectBottom
+
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
 
